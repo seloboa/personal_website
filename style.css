@@ -32,18 +32,23 @@ body::after {
   }
 }
 
+.fadeinanimated{
+  opacity: 0;
+  animation: fadein 5s forwards;
+}
+
 #name,
 #title,
 #location {
   text-align: center;
-  animation: fadein 10s forwards;
+
 }
 
 #title{
-  animation-delay: 10s;
+  animation-delay: 4s;
 
 }
 
 #location{
-  animation-delay: 20s;
+  animation-delay: 8s;
 }
