@@ -1,12 +1,13 @@
-body::after {
+/*Background Formats
+========================================*/
+.backgroundWrapper {
   content: '';
-  background: url('./background2.jpeg');
-  background-repeat: no-repeat;
+  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 1;
   top: 0;
   left: 0;
   bottom: 0;
@@ -15,12 +16,39 @@ body::after {
   z-index: -1;
 }
 
+.backgroundWrapper::after {
+  content: '';
+  background: url('./images/background2.jpeg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/*Text Formats
+========================================*/
 .textWrapper {
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
+/*Text Animation
+========================================*/
+.fadeinanimated {
+  text-align: center;
+  opacity: 0;
+  animation: fadein 3s forwards;
 }
 
 @keyframes fadein {
@@ -32,23 +60,31 @@ body::after {
   }
 }
 
-.fadeinanimated{
-  opacity: 0;
-  animation: fadein 5s forwards;
+#title {
+  animation-delay: 2s;
 }
 
-#name,
-#title,
 #location {
-  text-align: center;
-
-}
-
-#title{
   animation-delay: 4s;
-
 }
 
-#location{
-  animation-delay: 8s;
+/*Footnote formats
+========================================*/
+#footnote {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%,-97%);
+  opacity:0.7;
+}
+
+#footnote:hover{
+  opacity: 1;
+}
+/*Arrows formats
+========================================*/
+#rightArrow{
+  /* right: 3%;
+  top: 50%;
+  transform:translate(-97%,50%); */
 }
