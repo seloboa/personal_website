@@ -18,7 +18,7 @@
 
 .backgroundWrapper::after {
   content: '';
-  background: url('./images/background2.jpeg');
+  background: url('/images/background2.jpeg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
