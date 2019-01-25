@@ -48,7 +48,7 @@
 .fadeinanimated {
   text-align: center;
   opacity: 0;
-  animation: fadein 3s forwards;
+  animation: fadein 2s forwards;
 }
 
 @keyframes fadein {
@@ -61,11 +61,11 @@
 }
 
 #title {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 #location {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 /*Footnote formats
