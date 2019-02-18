@@ -47,6 +47,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name{
+  font-size: 90px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#title{
+  font-size: 30px;
+}
+
+#location{
+  font-size:30px;
 }
 
 /*Text Animation
@@ -58,10 +73,18 @@
 }
 
 @keyframes fadein {
-  from {
+  0% {
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-55%);
     opacity: 0;
   }
-  to {
+  100% {
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     opacity: 1;
   }
 }
