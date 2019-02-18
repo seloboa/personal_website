@@ -42,11 +42,11 @@
 /*Text Formats
 ========================================*/
 .textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -74,17 +74,9 @@
 
 @keyframes fadein {
   0% {
-    position: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-55%);
     opacity: 0;
   }
   100% {
-    position: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     opacity: 1;
   }
 }
@@ -114,7 +106,7 @@
 ========================================*/
 i {
   border: solid white;
-  border-width: 0 1px 1px 0;
+  border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 10px;
 }
@@ -128,6 +120,7 @@ i {
 }
 
 .right:hover{
+  border-radius: 25%;
   border-width: 0 5px 5px 0;
 }
 
@@ -140,8 +133,10 @@ i {
 }
 
 .left:hover{
+  border-radius: 25%;
   border-width: 0 5px 5px 0;
 }
+
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
