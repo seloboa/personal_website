@@ -7,8 +7,8 @@ class Main extends Component {
   }
   render() {
     return (
-      <div class="backgroundWrapper">
-        <div class="textWrapper">
+      <div class="container">
+        <div class="left-half left-textWrapper">
           <div class="mainText">
             <p id="name" class="fadeinanimated">
               Bao Nguyen
@@ -21,9 +21,22 @@ class Main extends Component {
             </p>
           </div>
         </div>
+        <div class="right-half right-textWrapper">
+          <div class="mainText">
+            <p id="name" class="fadeinanimated">
+              Welcome to my personal website
+            </p>
+            <p id="title" class="fadeinanimated">
+              Click on the down arrow for more
+            </p>
+            <p id="location" class="fadeinanimated">
+              Go on, be curious!
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-ReactDOM.render(<Main />,document.getElementById('app'));
+ReactDOM.render(<Main />, document.querySelector('#app'));

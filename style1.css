@@ -1,24 +1,58 @@
 /*Text Formats
 ========================================*/
-.textWrapper {
-  display: flex;
+.left-textWrapper {
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh; */
+  text-align: center;
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#name{
+.right-textWrapper {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name {
   font-size: 90px;
   padding: 0px;
   margin: 0px;
 }
 
-#title{
+#title {
   font-size: 30px;
 }
 
-#location{
-  font-size:30px;
+#location {
+  font-size: 30px;
+}
+
+/*Page Formats (split into 2)
+========================================*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-half {
+  background-color: white;
+  flex: 1;
+}
+
+.right-half {
+  background-color: black;
+  flex: 1;
 }
