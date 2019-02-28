@@ -25,3 +25,5 @@ class Main extends Component {
     );
   }
 }
+
+ReactDOM.render(<Main />,document.getElementById('app'));
