@@ -2,7 +2,7 @@
 ========================================*/
 .backgroundWrapper {
   content: '';
-  background: black;
+  background: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: white;
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -103,7 +103,7 @@
   opacity: 1;
 }
 /*Arrows formats
-========================================*/
+========================================
 i {
   border: solid white;
   border-width: 0 2px 2px 0;
@@ -146,3 +146,4 @@ i {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+*/

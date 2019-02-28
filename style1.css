@@ -1,0 +1,24 @@
+/*Text Formats
+========================================*/
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name{
+  font-size: 90px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#title{
+  font-size: 30px;
+}
+
+#location{
+  font-size:30px;
+}
