@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "react": "^16.8.3",
-    "reactdom": "^2.0.0"
+    "reactdom": "^2.0.0",
+    "webpack": "^4.29.5"
   }
 }
